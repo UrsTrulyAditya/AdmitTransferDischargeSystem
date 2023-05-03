@@ -1,0 +1,35 @@
+
+@media (max-width: 770px) {
+  .header {
+    margin-bottom: 55px;
+  }
+}
+
+
+.register {
+  display: none;
+  overflow-y: scroll;
+  padding-right: 15px; /* Add padding to make up for missing scrollbar */
+}
+
+.register::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.news-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-box img {
+  margin-bottom: 10px;
+}
